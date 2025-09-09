@@ -1,0 +1,15 @@
+{
+    "username":"Admin",
+    "password":"admin123",
+    "addemployee":"https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee",
+    "employeelist":"https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+    "PIM":"https://opensource-demo.orangehrmlive.com/web/index.php/pim",
+    "dashboard":"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+    "Firstname":"John",
+    "middleName":"W",
+    "Lastname":"Wick",
+    "employeeId":990011,
+    "photopath":"C:/Users/HP/Pictures/Saved Pictures/john.jpg"
+
+
+}
