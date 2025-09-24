@@ -2,6 +2,7 @@
 import {test, expect} from '@playwright/test';
 import orhr from '../Data_variables/orange.json'
 
+
 test ('ADD EMPLOYEE', async ({ page }) => {
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     await page.locator ("//input[@name='username']").fill (orhr.username)

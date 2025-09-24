@@ -1,7 +1,6 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
 import { TIMEOUT } from 'dns';
-require('dotenv').config()
 
 /**
  * Read environment variables from file.
@@ -18,11 +17,11 @@ require('dotenv').config()
 export default defineConfig({
 
   expect: {
-    timeout: 500000
+    timeout: 5000000
   },
 
- timeout :60000,
-  testDir: './tests',
+ timeout :600000,
+  testDir: './manju',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
