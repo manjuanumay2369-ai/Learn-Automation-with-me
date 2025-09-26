@@ -21,7 +21,7 @@ export default defineConfig({
     timeout: 5000000
   },
 
- //timeout :600000,
+ timeout :600000,
   testDir: './manju',
   /* Run tests in files in parallel */
   fullyParallel: false,
