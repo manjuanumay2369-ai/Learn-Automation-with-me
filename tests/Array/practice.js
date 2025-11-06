@@ -282,7 +282,15 @@ arr1=["wakeup","brush","bath","eat","go to school"]
 // console.log({length:5})
 
 
+let str = "abc";
+let rotated = str.slice(1) + str[0];
+console.log(rotated); // Output: "bca"
 
 
 
+function rotateLeft(str) {
+  return str.slice(1) + str[0];
+}
+
+console.log(rotateLeft("hello")); // Output: "elloh"
 
